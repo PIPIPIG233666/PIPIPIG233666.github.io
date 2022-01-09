@@ -33,7 +33,7 @@
     },
     created() {
       axios
-        .get('https://api.github.com/users/yuk7/repos?sort=updated')
+        .get('https://api.github.com/users/PIPIPIG233666/repos?sort=updated')
         .then(response => {
           this.repos = response.data;
         });

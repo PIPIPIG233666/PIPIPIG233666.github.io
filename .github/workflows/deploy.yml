@@ -26,7 +26,7 @@ jobs:
     - name: Deploy
       run: |
         git clone https://${{github.actor}}:${{github.token}}@github.com/${{github.repository}} -b main
-        mv yuk7.github.io/.git dist/
+        mv PIPIPIG233666.github.io/.git dist/
         cd dist
         git add .
         git commit --allow-empty -m "built from ${{github.sha}}"

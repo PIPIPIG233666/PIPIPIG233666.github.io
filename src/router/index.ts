@@ -1,9 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import { trackRouter } from 'vue-gtag-next'
 import HomeView from '../views/HomeView.vue'
-import BlogView from '../views/BlogView.vue'
 import ReposView from '../views/ReposView.vue'
-import WorksView from '../views/WorksView.vue'
 import NotFoundView from '../views/_NotFoundView.vue'
 
 const routes: Array<RouteRecordRaw> = [
@@ -18,19 +16,9 @@ const routes: Array<RouteRecordRaw> = [
     component: HomeView
   },
   {
-    path: '/blog',
-    name: 'blog',
-    component: BlogView
-  },
-  {
     path: '/repos',
     name: 'repos',
     component: ReposView
-  },
-  {
-    path: '/works',
-    name: 'works',
-    component: WorksView
   }
 ]
 

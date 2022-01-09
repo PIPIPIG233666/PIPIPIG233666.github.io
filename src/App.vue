@@ -1,12 +1,11 @@
 <template>
   <v-app id="app" :theme="theme">
     <v-app-bar elevation="4">
-      <v-toolbar-title>yuk7.github.io</v-toolbar-title>
+      <v-toolbar-title>PIPIPIG233666.github.io</v-toolbar-title>
       <v-spacer />
       <div class="d-none d-sm-flex">
         <v-btn class="mr-3" to="/" @click.stop="drawer = false">Home</v-btn>
-        <v-btn class="mr-3" to="/works" @click.stop="drawer = false">Works</v-btn>
-        <v-btn class="mr-3" href="/blog" @click.stop="drawer = false">Blog</v-btn>
+        <!--v-btn class="mr-3" href="/blog" @click.stop="drawer = false">Blog</v-btn-->
         <v-btn class="mr-3" to="/repos" @click.stop="drawer = false">Repositories</v-btn>
       </div>
       <v-btn icon @click="toggleTheme">
@@ -24,15 +23,10 @@
         <span>Home</span>
       </v-btn>
 
-      <v-btn to="/works">
-        <v-icon>mdi mdi-briefcase</v-icon>
-        <span>Works</span>
-      </v-btn>
-
-      <v-btn href="/blog">
+      <!--v-btn href="/blog">
         <v-icon>mdi mdi-post</v-icon>
         <span>Blog</span>
-      </v-btn>
+      </v-btn-->
 
       <v-btn to="/repos">
         <v-icon>mdi mdi-github</v-icon>
