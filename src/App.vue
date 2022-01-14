@@ -6,6 +6,7 @@
       <v-spacer />
       <div class="d-none d-sm-flex">
         <v-btn class="mr-3" to="/">Home</v-btn>
+        <v-btn class="mr-3" href="/blog">Blog</v-btn>
         <v-btn class="mr-3" to="/repos">Repositories</v-btn>
       </div>
       <v-btn icon @click="toggleTheme">
@@ -25,10 +26,10 @@
         <span>Home</span>
       </v-btn>
 
-      <!--v-btn href="/blog">
+      <v-btn href="/blog">
         <v-icon>mdi mdi-post</v-icon>
         <span>Blog</span>
-      </v-btn-->
+      </v-btn>
 
       <v-btn to="/repos">
         <v-icon>mdi mdi-github</v-icon>
@@ -76,3 +77,4 @@
     }
   })
 </script>
+
