@@ -19,7 +19,7 @@ My personal website.
 * lodash
 ### Hosting and CI
 * GitHub Pages (main branch)
-* GitHub
+* GitHub Actions
 
 ## How to get started
 ```bash
@@ -38,8 +38,9 @@ npm run build
 .
 |-.github
 |   |-workflows
-|   |   |-build.yml (only build when pushed)
-|   |   |-deploy,yml (build and push to main when pushed to source branch
+|   |   |-build.yml (run build only build when pushed)
+|   |   |-deploy.yml (build and push to main when pushed to source branch)
+|   |   |-lint.yml (run lint when pushed and pull requested)
 |
 |-public (file generate template)
 |   |-index.html (modified for supports SPA in GitHub Pages)
@@ -49,9 +50,16 @@ npm run build
 |-src (source file directory)
 |   |-main.ts (entry point script)
 |   |-App.vue (main view)
+|   |-assets
+|   |   |-* (assets files)
+|   |
 |   |-router
 |   |   |-index.ts (vue router config)
+|   |
+|   |-components
+|   |   |-*.vue (vue components)
+|   |
 |   |-views
 |   |   |-_NotFoundView.vue (not found page)
-|   |   |-*.vue (sub pages)
+|   |   |-*.vue (sub views)
 ```

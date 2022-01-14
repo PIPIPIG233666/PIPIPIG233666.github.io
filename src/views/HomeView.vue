@@ -86,13 +86,13 @@
           {
             year: 'Nov, 2021',
             title: 'Semi-finalist with Team 573 at 2021 OCCRA (Oakland County Competitive Robotics Association)',
-            content: 'Fixed some random indentation issues with the code as part of the programming sub-team.',
+            content: 'Fixed some random indentation issues of the code as part of the programming sub-team.',
             env: 'C++'
           },
           {
-            year: '2022~',
+            year: 'Oct, 2021~',
             title: 'Member of FIRST Robotics Competition Team 573 at Brother Rice & Marrian High School',
-            content: 'Wrote some random codes for the driver train',
+            content: 'Wrote some random codes for the driver train and gyroscope.',
             env: 'C++'
           }
         ],

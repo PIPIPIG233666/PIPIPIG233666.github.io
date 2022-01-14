@@ -1,12 +1,12 @@
 <template>
   <v-app id="app" :theme="theme">
     <v-app-bar elevation="4">
+      <ParticleBackground id="appbar-background"/>
       <v-toolbar-title>pppig236.com</v-toolbar-title>
       <v-spacer />
       <div class="d-none d-sm-flex">
-        <v-btn class="mr-3" to="/" @click.stop="drawer = false">Home</v-btn>
-        <!--v-btn class="mr-3" href="/blog" @click.stop="drawer = false">Blog</v-btn-->
-        <v-btn class="mr-3" to="/repos" @click.stop="drawer = false">Repositories</v-btn>
+        <v-btn class="mr-3" to="/">Home</v-btn>
+        <v-btn class="mr-3" to="/repos">Repositories</v-btn>
       </div>
       <v-btn icon @click="toggleTheme">
         <v-icon>mdi mdi-brightness-6</v-icon>
@@ -14,10 +14,12 @@
     </v-app-bar>
 
     <v-main>
+      <ParticleBackground id="background" class="d-none d-sm-flex" />
       <router-view />
     </v-main>
 
     <v-bottom-navigation class="d-flex d-sm-none">
+      <ParticleBackground id="bottomnav-background"/>
       <v-btn to="/">
         <v-icon>mdi mdi-home</v-icon>
         <span>Home</span>
@@ -37,19 +39,21 @@
 </template>
 
 <script lang="ts">
-  import { defineComponent } from 'vue'
+  import { defineComponent } from 'vue';
+  import ParticleBackground from "@/components/ParticleBackground.vue";
 
   export type DataType = {
-    theme: string,
-    drawer: boolean
+    theme: string
   }
 
   export default defineComponent({
     name: 'App',
+    components: {
+      ParticleBackground
+    },
     data(): DataType {
       return {
-        theme: "light",
-        drawer: false
+        theme: "light"
       }
     },
     methods: {
