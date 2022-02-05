@@ -92,7 +92,7 @@
           {
             year: 'Oct, 2021~',
             title: 'Member of FIRST Robotics Competition Team 573 at Brother Rice & Marrian High School',
-            content: 'Wrote some random codes for the driver train and gyroscope.',
+            content: 'Wrote codes for the Appendage and refined the Scouting Webpage.',
             env: 'C++'
           }
         ],
