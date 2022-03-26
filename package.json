@@ -17,15 +17,15 @@
     "vue": "^3.2.29",
     "vue-gtag-next": "^1.14.0",
     "vue-router": "^4.0.3",
-    "vuetify": "^3.0.0-alpha.12",
+    "vuetify": "^3.0.0-beta.0",
     "webfontloader": "^1.0.0"
   },
   "devDependencies": {
     "@types/webfontloader": "^1.6.34",
     "@typescript-eslint/eslint-plugin": "^5.16.0",
     "@typescript-eslint/parser": "^5.13.0",
-    "@vue/cli-plugin-babel": "~5.0.0-rc.1",
-    "@vue/cli-plugin-eslint": "~5.0.1",
+    "@vue/cli-plugin-babel": "~5.0.4",
+    "@vue/cli-plugin-eslint": "~5.0.4",
     "@vue/cli-plugin-router": "~5.0.0-rc.2",
     "@vue/cli-plugin-typescript": "~5.0.0-rc.1",
     "@vue/cli-service": "~5.0.0-rc.2",
@@ -35,7 +35,7 @@
     "sass": "^1.49.7",
     "sass-loader": "^12.4.0",
     "typescript": "~4.5.4",
-    "vue-cli-plugin-vuetify": "~2.4.5",
+    "vue-cli-plugin-vuetify": "~2.4.8",
     "vuetify-loader": "^2.0.0-alpha.9"
   }
 }
