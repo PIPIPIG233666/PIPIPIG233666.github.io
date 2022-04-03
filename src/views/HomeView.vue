@@ -100,7 +100,7 @@
             title: '2022 First Robotics Competition Team 573',
             content: '2022 FIM District Milford Event presented by GM Proving Grounds:\n' +
                 'Placed as the Seventh seed, the Sixth Alliance Captain, Quarter finalist\n' +
-                '2022 FIM District Troy Event presented by Magma:\n' +
+                '2022 FIM District Troy Event presented by Magna:\n' +
                 'Placed as the Eighth Seed, the Fifth Alliance Captain, and Quarter finalist',
             env: 'C++ codes for the RoboRio | Python, HTML, CSS for the Scouting APP'
           }
