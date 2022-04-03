@@ -14,7 +14,7 @@
             <v-icon>mdi mdi-heart</v-icon> Linux/Android/Ubuntu/LineageOS/Windows
           </p>
           <p>
-            <v-icon>mdi mdi-code-braces</v-icon> C++/Java/Python/ASM
+            <v-icon>mdi mdi-code-braces</v-icon> C++/Java/Python/ASM/HTML
           </p>
         </v-list-item-content>
 
@@ -90,10 +90,13 @@
             env: 'C++'
           },
           {
-            year: 'Oct, 2021~',
-            title: 'Member of FIRST Robotics Competition Team 573 at Brother Rice & Marrian High School',
-            content: 'Wrote codes for the Appendage and refined the Scouting Webpage.',
-            env: 'C++'
+            year: 'Mar-Apr, 2022',
+            title: '2022 First Robotics Competition Team 573',
+            content: '2022 FIM District Milford Event presented by GM Proving Grounds:\n' +
+                'Placed as the Seventh seed, the Sixth Alliance Captain, Quarter finalist\n' +
+                '2022 FIM District Troy Event presented by Magma:\n' +
+                'Placed as the Eighth Seed, the Fifth Alliance Captain, and Quarter finalist',
+            env: 'C++ codes for the RoboRio | Python, HTML, CSS for the Scouting APP'
           }
         ],
       }
