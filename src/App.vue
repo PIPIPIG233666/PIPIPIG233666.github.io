@@ -1,13 +1,13 @@
 <template>
   <v-app id="app" :theme="theme">
     <v-app-bar elevation="4">
-      <ParticleBackground id="appbar-background"/>
       <v-toolbar-title>pppig236.com</v-toolbar-title>
       <v-spacer />
       <div class="d-none d-sm-flex">
         <v-btn class="mr-3" to="/">Home</v-btn>
         <v-btn class="mr-3" href="/blog">Blog</v-btn>
         <v-btn class="mr-3" to="/repos">Repositories</v-btn>
+        <v-btn class="mr-3" to="/links">Links</v-btn>
       </div>
       <v-btn icon @click="toggleTheme">
         <v-icon>mdi mdi-brightness-6</v-icon>
@@ -15,12 +15,11 @@
     </v-app-bar>
 
     <v-main>
-      <ParticleBackground id="background" class="d-none d-sm-flex" />
+      <ParticleSnowBackground id="background" class="d-none d-sm-flex" />
       <router-view />
     </v-main>
 
     <v-bottom-navigation class="d-flex d-sm-none">
-      <ParticleBackground id="bottomnav-background"/>
       <v-btn to="/">
         <v-icon>mdi mdi-home</v-icon>
         <span>Home</span>
@@ -39,9 +38,19 @@
   </v-app>
 </template>
 
+<style scoped>
+  #app {
+    min-height: 100vh;
+    background-image: url("@/assets/img/BURST20180815135433681_COVER.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+</style>
+
 <script lang="ts">
   import { defineComponent } from 'vue';
-  import ParticleBackground from "@/components/ParticleBackground.vue";
+  import ParticleSnowBackground from "@/components/ParticleSnowBackground.vue";
 
   export type DataType = {
     theme: string
@@ -50,7 +59,7 @@
   export default defineComponent({
     name: 'App',
     components: {
-      ParticleBackground
+      ParticleSnowBackground
     },
     data(): DataType {
       return {

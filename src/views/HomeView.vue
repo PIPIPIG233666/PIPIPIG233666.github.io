@@ -35,6 +35,12 @@
         <v-btn icon href="https://github.com/PIPIPIG233666">
           <v-icon>fab fa-github</v-icon>
         </v-btn>
+        <v-btn icon href="https://paypal.me/pig236">
+          <v-icon>fab fa-paypal</v-icon>
+        </v-btn>
+        <!--v-btn icon @click="dialog_btc = true">
+          <v-icon>fab fa-bitcoin</v-icon>
+        </v-btn-->
       </v-card-actions>
     </v-card>
 

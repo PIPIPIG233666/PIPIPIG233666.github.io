@@ -3,6 +3,8 @@ import { trackRouter } from 'vue-gtag-next'
 import HomeView from '../views/HomeView.vue'
 import BlogView from '../views/BlogView.vue'
 import ReposView from '../views/ReposView.vue'
+//import WorksView from '../views/WorksView.vue'
+//import LinksView from '../views/FriendsLinkView.vue'
 import NotFoundView from '../views/_NotFoundView.vue'
 
 const routes: Array<RouteRecordRaw> = [
@@ -29,7 +31,12 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/works',
     name: 'works',
-    component: WorksView*/
+    component: WorksView
+  },
+  {
+    path: '/links',
+    name: 'links',
+    component: LinksView*/
   }
 ]
 
