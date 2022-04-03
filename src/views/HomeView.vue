@@ -48,6 +48,7 @@
       <v-list lines="two">
         <v-list-item prependIcon="mdi mdi-linux" title="Linux" subtitle="kernel build" />
         <v-list-item prependIcon="mdi mdi-android" title="Android OS Development" subtitle="Java, C++" />
+        <v-list-item prependIcon="mdi mdi-web" title="Webpage Development"  subtitle="HTML, CSS, SQLite"/>
       </v-list>
     </v-card>
 
@@ -91,9 +92,9 @@
         history: [
           {
             year: 'Nov, 2021',
-            title: 'Semi-finalist with Team 573 at 2021 OCCRA (Oakland County Competitive Robotics Association)',
-            content: 'Fixed some random indentation issues of the code as part of the programming sub-team.',
-            env: 'C++'
+            title: '2021 Oakland County Competitive Robotics Association Team 573',
+            content: 'Finished as Semi finalist',
+            env: 'C++ codes programming using VEX'
           },
           {
             year: 'Mar-Apr, 2022',
