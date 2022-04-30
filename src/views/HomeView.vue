@@ -53,7 +53,7 @@
     </v-card>
 
 
-    <v-card class="mx-auto" elevation="4" max-width="500" title="Extracurricular activities">
+    <v-card class="mx-auto" elevation="4" max-width="500" title="Extracurricular activities and Achievements">
       <HistoryTimeLine :items="history" />
     </v-card>
 
@@ -97,13 +97,40 @@
             env: 'C++ codes programming using VEX'
           },
           {
-            year: 'Mar-Apr, 2022',
-            title: '2022 First Robotics Competition Team 573',
-            content: '2022 FIM District Milford Event presented by GM Proving Grounds:\n' +
-                'Placed as the Seventh seed, the Sixth Alliance Captain, Quarter finalist\n' +
-                '2022 FIM District Troy Event presented by Magna:\n' +
-                'Placed as the Eighth Seed, the Fifth Alliance Captain, and Quarter finalist',
+            year: 'Jan-Apr, 2022',
+            title: 'FRC Team 573',
+            content: 'Programming Sub-team, Scouting Co-lead, Pit-shift B',
             env: 'C++ codes for the RoboRio | Python, HTML, CSS for the Scouting APP'
+          },
+          {
+            year: 'Mar 10-12, 2022',
+            title: '2022 FIM District Milford Event presented by GM Proving Grounds FRC Team 573',
+            content: 'Placed as the Seventh seed, the Sixth Alliance Captain, Quarter finalist',
+            env: ''
+          },
+          {
+            year: 'Mar 31-Apr 2, 2022',
+            title: '2022 FIM District Troy Event presented by Magna FRC Team 573',
+            content: 'Placed as the Eighth Seed, the Fifth Alliance Captain, and Quarter finalist',
+            env: ''
+          },
+          {
+            year: 'Apr 13-16, 2022',
+            title: '2022 FIRST in Michigan State Championship - APTIV Division FRC Team 573',
+            content: 'Placed as the Sixth Seed, the Fifth Alliance Captain, and Semi finalist',
+            env: ''
+          },
+          {
+            year: 'Apr 20-23, 2022',
+            title: '2022 FIRST Championship - FIRST Robotics Competition - Newton Division FRC Team 573',
+            content:  'Ranked 46th out of 76 teams',
+            env: ''
+          },
+          {
+            year: 'Apr 25, 2022',
+            title: 'Certificate of Achievement in recognition of outstanding achievement',
+            content: 'AP Calculus (BC), and AP Computer Science Principles',
+            env: ''
           }
         ],
       }
