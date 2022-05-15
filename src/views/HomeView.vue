@@ -11,7 +11,7 @@
             <v-icon>mdi mdi-city</v-icon> Detroit
           </p>
           <p>
-            <v-icon>mdi mdi-heart</v-icon> Windows/Linux/Android/Ubuntu/Arch/LineageOS
+            <v-icon>mdi mdi-heart</v-icon> Windows/Linux/Android
           </p>
           <p>
             <v-icon>mdi mdi-code-braces</v-icon> C++/Java/Python/ASM/HTML
@@ -21,7 +21,7 @@
         <v-spacer />
 
         <v-avatar class="profile" color="pink" size="20%">
-          <v-img src="https://avatars.githubusercontent.com/u/43439674" ></v-img>
+          <v-img src="https://avatars.githubusercontent.com/u/43439674" max-height="200px" ></v-img>
         </v-avatar>
       </v-list-item>
 
