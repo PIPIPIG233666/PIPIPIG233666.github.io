@@ -93,7 +93,7 @@
           {
             year: 'Nov, 2021',
             title: '2021 Oakland County Competitive Robotics Association Team 573',
-            content: 'Finished as Semi finalist',
+            content: 'Semi finalist',
             env: 'C++ codes programming using VEX'
           },
           {
@@ -105,25 +105,25 @@
           {
             year: 'Mar 10-12, 2022',
             title: '2022 FIM District Milford Event presented by GM Proving Grounds FRC Team 573',
-            content: 'Placed as the Seventh seed, the Sixth Alliance Captain, Quarter finalist',
+            content: 'The Seventh seed, the Sixth Alliance Captain, and Quarter finalist',
             env: ''
           },
           {
             year: 'Mar 31-Apr 2, 2022',
             title: '2022 FIM District Troy Event presented by Magna FRC Team 573',
-            content: 'Placed as the Eighth Seed, the Fifth Alliance Captain, and Quarter finalist',
+            content: 'The Eighth Seed, the Fifth Alliance Captain, and Quarter finalist',
             env: ''
           },
           {
             year: 'Apr 13-16, 2022',
             title: '2022 FIRST in Michigan State Championship - APTIV Division FRC Team 573',
-            content: 'Placed as the Sixth Seed, the Fifth Alliance Captain, and Semi finalist',
+            content: 'The Sixth Seed, the Fifth Alliance Captain, and Semi finalist',
             env: ''
           },
           {
             year: 'Apr 20-23, 2022',
             title: '2022 FIRST Championship - FIRST Robotics Competition - Newton Division FRC Team 573',
-            content:  'Ranked 46th out of 76 teams',
+            content:  'The 46th seed out of 76 teams',
             env: ''
           },
           {
