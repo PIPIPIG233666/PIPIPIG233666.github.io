@@ -11,7 +11,7 @@
             <v-icon>mdi mdi-city</v-icon> Detroit
           </p>
           <p>
-            <v-icon>mdi mdi-heart</v-icon> Linux/Android/Ubuntu/LineageOS/Windows
+            <v-icon>mdi mdi-heart</v-icon> Windows/Linux/Android/Ubuntu/Arch/LineageOS
           </p>
           <p>
             <v-icon>mdi mdi-code-braces</v-icon> C++/Java/Python/ASM/HTML
@@ -21,7 +21,7 @@
         <v-spacer />
 
         <v-avatar class="profile" color="pink" size="20%">
-          <v-img src="https://avatars.githubusercontent.com/u/43439674" max-width="200px"></v-img>
+          <v-img src="https://avatars.githubusercontent.com/u/43439674" ></v-img>
         </v-avatar>
       </v-list-item>
 
@@ -91,6 +91,9 @@
         dialog_btc: false,
         history: [
           {
+            header: "FRC Team 573"
+          },
+          {
             year: 'Nov, 2021',
             title: '2021 Oakland County Competitive Robotics Association Team 573',
             content: 'Semi finalist',
@@ -98,7 +101,7 @@
           },
           {
             year: 'Jan-Apr, 2022',
-            title: 'FRC Team 573',
+            title: 'FIRST 2022 Season',
             content: 'Programming Sub-team, Scouting Co-lead, Pit-shift B',
             env: 'C++ codes for the RoboRio | Python, HTML, CSS for the Scouting APP'
           },
@@ -125,6 +128,9 @@
             title: '2022 FIRST Championship - FIRST Robotics Competition - Newton Division FRC Team 573',
             content:  'The 46th seed out of 76 teams',
             env: ''
+          },
+          {
+            header: "School stuff"
           },
           {
             year: 'Apr 25, 2022',

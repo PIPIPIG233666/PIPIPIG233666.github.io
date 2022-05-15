@@ -41,8 +41,9 @@
 <style scoped>
   #app {
     min-height: 100vh;
-    background-image: url("@/assets/img/BURST20180815135433681_COVER.jpg");
+    background-image: url("@/assets/img/IMG_20220415_073936.jpg");
     background-repeat:no-repeat;
+    background-size: cover;
     background-attachment: fixed;
   }
 </style>

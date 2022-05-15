@@ -2,6 +2,7 @@
     <v-timeline density="end">
         <v-timeline-item v-for="(item, i) in items" :key="i" size="8px" iconColor="blue">
           <v-container class="fill-height">
+            <div style="color: lightpink" class="text-h4">{{ item.header }}</div>
             <div>{{ item.year }}</div>
             <div>
               <div class="text-h5">{{ item.title }}</div>
