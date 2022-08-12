@@ -1,29 +1,32 @@
 <template>
   <v-container>
     <v-card class="mx-auto" elevation="4" max-width="500">
-      <v-list-item>
-        <v-list-item-content>
-          <h2>pppig236</h2>
-          <p>
+      <v-card-title class="text-h5">pppig236</v-card-title>
+      <v-card-text class="py-0">
+        <v-row align="center" hide-gutters>
+          <v-col cols="9">
+            <p>
             <v-icon>mdi mdi-cake-variant</v-icon> Jan. 2004
           </p>
           <p>
             <v-icon>mdi mdi-city</v-icon> Detroit
           </p>
           <p>
-            <v-icon>mdi mdi-heart</v-icon> Windows/Linux/Android
+            <v-icon>mdi mdi-heart</v-icon> Windows/Linux/Hackintosh/Android
           </p>
           <p>
-            <v-icon>mdi mdi-code-braces</v-icon> C++/Java/Python/ASM/HTML
+            <v-icon>mdi mdi-code-braces</v-icon> C++/Java/Kotlin/Python/ASM/HTML
           </p>
-        </v-list-item-content>
+          </v-col>
+        <v-col class="text-right">
+          <v-avatar class="profile" color="grey" size="60%">
+            <v-img src="https://avatars.githubusercontent.com/u/43439674" max-width="200px"></v-img>
+          </v-avatar>
+        </v-col>
+        </v-row>
+      </v-card-text>
 
-        <v-spacer />
-
-        <v-avatar class="profile" color="pink" size="20%">
-          <v-img src="https://avatars.githubusercontent.com/u/43439674" max-height="200px" ></v-img>
-        </v-avatar>
-      </v-list-item>
+      <v-spacer />
 
       <v-card-actions>
         <v-btn icon @click="dialog_email = true">
