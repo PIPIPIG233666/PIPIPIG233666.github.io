@@ -41,7 +41,7 @@
 <style scoped>
   #app {
     min-height: 100vh;
-    background-image: url("@/assets/img/IMG_20220415_073936.jpg");
+    background-image: url("@/assets/img/PXL_20230419_162006908.PANO.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment: fixed;
