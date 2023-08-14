@@ -1,7 +1,7 @@
 <template>
   <v-app id="app" :theme="theme">
     <v-app-bar elevation="4">
-      <v-toolbar-title>pppig236.com</v-toolbar-title>
+      <v-toolbar-title>dev.pppig236.com</v-toolbar-title>
       <v-spacer />
       <div class="d-none d-sm-flex">
         <v-btn class="mr-3" to="/">Home</v-btn>

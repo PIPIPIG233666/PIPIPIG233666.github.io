@@ -28,7 +28,7 @@ jobs:
         git clone https://${{github.actor}}:${{github.token}}@github.com/${{github.repository}} -b main --depth 1 dist-branch
         mv dist-branch/.git dist/
         cd dist
-        echo 'www.pppig236.com' > CNAME
+        echo 'dev.pppig236.com' > CNAME
         git add .
         git commit --allow-empty -m "built from ${{github.sha}}"
         git push --force-with-lease origin main
