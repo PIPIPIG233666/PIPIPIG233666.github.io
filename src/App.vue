@@ -36,7 +36,7 @@
     </v-bottom-navigation>
   </v-app>
   <div id="app">
-    <vue-particles id="tsparticles" :particles-init="particlesInit" @particles-loaded="particlesLoaded" :options="{
+    <vue-particles id="tsparticles" :options="{
       preset: 'snow',
       background: {
         color: {
@@ -50,7 +50,7 @@
 <style scoped>
 #app {
   min-height: 100vh;
-  background-image: url("@/assets/img/family_guy.jpg");
+  background-image: url("@/assets/img/2025-06-19-18-41-50-844.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
