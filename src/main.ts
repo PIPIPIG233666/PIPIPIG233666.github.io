@@ -7,6 +7,7 @@ import { loadFonts } from './plugins/webfontloader'
 
 import Particles from "@tsparticles/vue3";
 import { loadSnowPreset } from '@tsparticles/preset-snow'
+import '@mdi/font/css/materialdesignicons.css' 
 loadFonts()
 
 createApp(App)

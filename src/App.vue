@@ -55,6 +55,10 @@
   background-size: cover;
   background-attachment: fixed;
 }
+
+#tsparticles {
+  pointer-events: none;
+}
 </style>
 
 <script lang="ts">
