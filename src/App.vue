@@ -15,7 +15,6 @@
     </v-app-bar>
 
     <v-main>
-      <ParticleSnowBackground id="background" class="d-none d-sm-flex" />
       <router-view />
     </v-main>
 
@@ -36,54 +35,59 @@
       </v-btn>
     </v-bottom-navigation>
   </v-app>
+  <div id="app">
+    <vue-particles id="tsparticles" :particles-init="particlesInit" @particles-loaded="particlesLoaded" :options="{
+      preset: 'snow',
+      background: {
+        color: {
+          value: '#0d47a1'
+        }
+      }
+    }" />
+  </div>
 </template>
 
 <style scoped>
-  #app {
-    min-height: 100vh;
-    background-image: url("@/assets/img/PXL_20230419_162006908.PANO.jpg");
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
+#app {
+  min-height: 100vh;
+  background-image: url("@/assets/img/family_guy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 </style>
 
 <script lang="ts">
-  import { defineComponent } from 'vue';
-  import ParticleSnowBackground from "@/components/ParticleSnowBackground.vue";
+import { defineComponent } from 'vue';
 
-  export type DataType = {
-    theme: string
-  }
+export type DataType = {
+  theme: string
+}
 
-  export default defineComponent({
-    name: 'App',
-    components: {
-      ParticleSnowBackground
-    },
-    data(): DataType {
-      return {
-        theme: "light"
-      }
-    },
-    methods: {
-      toggleTheme() {
-        this.theme = this.theme === "light" ? "dark" : "light";
-      }
-    },
-    created() {
-      const darkMedia = window.matchMedia('(prefers-color-scheme: dark)')
-      if (darkMedia.matches == true) {
-        this.theme = "dark"
-      }
-      darkMedia.addEventListener("change", event => {
-        if (event.matches) {
-          this.theme = "dark"
-        } else {
-          this.theme = "light"
-        }
-      })
+export default defineComponent({
+  name: 'App',
+  data(): DataType {
+    return {
+      theme: "light"
     }
-  })
+  },
+  methods: {
+    toggleTheme() {
+      this.theme = this.theme === "light" ? "dark" : "light";
+    }
+  },
+  created() {
+    const darkMedia = window.matchMedia('(prefers-color-scheme: dark)')
+    if (darkMedia.matches == true) {
+      this.theme = "dark"
+    }
+    darkMedia.addEventListener("change", event => {
+      if (event.matches) {
+        this.theme = "dark"
+      } else {
+        this.theme = "light"
+      }
+    })
+  }
+})
 </script>
-

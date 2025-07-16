@@ -5,9 +5,18 @@ import VueGtag from 'vue-gtag-next'
 import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
 
+import Particles from "@tsparticles/vue3";
+import { loadSnowPreset } from '@tsparticles/preset-snow'
 loadFonts()
 
 createApp(App)
+
+createApp(App)
+  .use(Particles, {
+    init: async engine => {
+      await loadSnowPreset(engine);
+    },
+  })
   .use(router)
   .use(VueGtag, {
     property: {
