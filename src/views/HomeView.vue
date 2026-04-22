@@ -49,8 +49,10 @@
 
     <v-card class="mx-auto" elevation="4" max-width="500" title="Skills">
       <v-list lines="two">
+        <v-list-item prependIcon="mdi mdi-chip" title="Circuit Design" subtitle="Verilog, Cadence, Overclocking" />
+        <v-list-item prependIcon="mdi mdi-car" title="Automotive" subtitle="Mercedes-Benz diagnostics and repairing" />
         <v-list-item prependIcon="mdi mdi-linux" title="Linux" subtitle="C, Kernel build, Debug, System Optimization" />
-        <v-list-item prependIcon="mdi mdi-android" title="Android OS Development" subtitle="Java, C++" />
+        <v-list-item prependIcon="mdi mdi-android" title="Android OS Development" subtitle="Java, Kotlin, C++" />
         <v-list-item prependIcon="mdi mdi-web" title="Webpage Development" subtitle="HTML, CSS, SQLite" />
       </v-list>
     </v-card>
