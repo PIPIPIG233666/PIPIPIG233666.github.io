@@ -152,7 +152,48 @@ export default defineComponent({
           title: 'EECS 370 - Intro to Computer Organization',
           content: 'I like the content, not the slides nor the exams',
           env: 'Richard: YoTeach? more like No!Teach: ASM, Pipeline, Cache, and Virtual memory',
-        }
+        },
+        {
+          year: 'Fall 2025',
+          title: 'EECS 320 - Intro to Semiconductor Devices',
+          content: 'MCQs ruined everything',
+          env: 'Quantum mechanics, solid state physics, and sh**ty exams',
+        },
+        // EECS 330
+        {
+          year: 'Fall, 2025',
+          title: 'EECS 330 - Electromagnetics II',
+          content: 'To be fair, the exam was fair but the cheetsheet was not',
+          env: 'Polarization, Waveguides, antennas',
+        },
+        // EECS 334
+        {
+          year: 'Fall, 2025',
+          title: 'EECS 334 - Intro to Optics',
+          content: 'Not the first time learning about waves, but Parag Deotare curved me down',
+          env: 'Wave optics, Geometrical optics, and interferometers',
+        },
+        // EECS 312
+        {
+          year: 'Winter, 2026',
+          title: 'EECS 312 - Intro to Digital Integrated Circuits',
+          content: 'David Garmire with his saving Grace',
+          env: 'Unified MOSFET model, CMOS inverter, Static and dynamic logic gates, Memory',
+        },
+        // EECS 430
+        {
+          year: 'Winter, 2026',
+          title: 'EECS 430 - Intro to Wireless Links',
+          content: 'Just like 330',
+          env: 'Antennas, Noise, Link budget, Modulation, and Fading',
+        },
+        // EECS 216
+        {
+          year: 'Winter, 2026',
+          title: 'EECS 216 - Intro to Signals and Systems',
+          content: 'Horrible exams with little to no partial credit',
+          env: 'Fourier series, Laplace transform, Convolution',
+        },
         /*
         {
           header: "FRC Team 573",
